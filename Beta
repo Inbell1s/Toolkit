@@ -1,4 +1,4 @@
-1. Atom - A hackable text editor for the 21st Century
+*1. Atom - A hackable text editor for the 21st Century*
 Installing Atom on Linux
 
 You can install Atom on Linux using your distribution's package manager by configuring it to use one of our official package repositories. This will also enable you to update Atom when new releases are published.
@@ -24,3 +24,7 @@ Alternatively, you can download the Atom .deb package and install it directly:
 sudo dpkg -i atom-amd64.deb
 # Install Atom's dependencies if they are missing
 sudo apt-get -f install
+
+2. Gnome-Panel - Shortcuts
+sudo apt  install --no-install-recommends gnome-panel
+gnome-desktop-item-edit ~/Desktop/ --create-new
